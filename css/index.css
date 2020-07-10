@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html {
+  background-color: #E8E9F3;
+  font-family: 'Raleway';
+  margin: 0;
+  padding: 0;
+}
+
+.navtop {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(41, 41, 41);
+}
+
+.navtop a {
+  padding-right: 300px;
+  text-decoration: none;
+}
+
+.navtop a:visited {
+  color: #E8E9F3;
+}
+
+
+button {
+
+  background-color: #E8E9F3;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid #172A3A;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  letter-spacing: 1px;
+  outline: none;
+  font-family: 'Raleway';
+}
+
+button:hover {
+  transition: 0.3s;
+  background-color: #172A3A;
+  color: #E8E9F3;
+}
+
+
+body {
+  padding-top: 50px;
+}
+
+.homeintrotext {
+  line-height: 10px;
+}
+
+#StylishName {
+  font-family: 'Great Vibes';
+  font-size: 150px;
+}
+
+#AKA {
+  font-size: 40px;
+}
