@@ -29,7 +29,6 @@ html {
 
 
 button {
-
   background-color: #E8E9F3;
   font-size: 30px;
   text-align: center;
@@ -48,36 +47,47 @@ button:hover {
 }
 
 
-body {
-  padding-top: 50px;
-}
 
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 40%;
-  padding: 15px;
+.homeintro {
+  padding-top: 100px;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 .homeintrotext {
   line-height: 10px;
-  position: relative;
-  left: 100px;
+}
+
+
+#introright {
+  float: right;
+  padding-right: 350px;
+
+}
+
+#ProfPic {
+  height: 500px;
+  border-radius: 50%;
+}
+
+#pronouns {
+  padding-top: 20px;
+  font-size: 30px;
+  padding-left: 150px;
+}
+
+#introleft {
+  padding-left: 175px;
+  float: left;
 }
 
 #StylishName {
   font-family: 'Great Vibes';
   font-size: 150px;
+  line-height: 125px;
+  height: 60px;
+  /* padding-bottom: 60px; */
 }
 
 #AKA {
+  padding-top: 20px;
   font-size: 40px;
 }
