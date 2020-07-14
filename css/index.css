@@ -49,7 +49,18 @@ button:hover {
   color: #E8E9F3;
 }
 
+.card {
+  display: inline-block;
+  background-color: #172A3A;
 
+  width: 100%;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+# cardText {
+
+}
 
 .homeintro {
   padding-top: 100px;
