@@ -62,6 +62,10 @@ button:hover {
 
 }
 
+.TopPart {
+  display: inline-block;
+}
+
 .homeintro {
   padding-top: 100px;
   /* background-image: url("../img/close-up-photo-of-white-petaled-flowers-364091.jpg"); */
@@ -75,8 +79,8 @@ button:hover {
 
 #introright {
   float: right;
-  padding-right: 350px;
-
+  padding-right: 200px;
+  padding-left: 75px;
 }
 
 #ProfPic {
@@ -98,13 +102,13 @@ button:hover {
 #StylishName {
   font-family: 'Great Vibes';
   font-size: 150px;
-  line-height: 125px;
+  line-height: 115px;
   height: 60px;
-  /* padding-bottom: 60px; */
+  /* padding-bottom: 20px; */
 }
 
 #AKA {
-  padding-top: 20px;
+  padding-top: 25px;
   font-size: 40px;
 }
 
