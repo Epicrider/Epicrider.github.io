@@ -12,6 +12,7 @@ html {
   padding: 0;
 }
 
+
 .navtop {
   height: 50px;
   width: 100%;
@@ -127,7 +128,12 @@ button:hover {
   clear: both;
   background-color: #E8E9F3;
   padding-bottom: 50px;
-  width: auto;
+  min-width: 100%;
+  /* overflow: auto; */
+  display: inline-block;
+  /* width: 100%;
+  overflow: auto;
+  display: inline-block; */
 }
 
 .SubjectButtons {
