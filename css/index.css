@@ -54,17 +54,21 @@ button:hover {
   background-color: #172A3A;
 
   width: 100%;
-  margin: 20px;
+  margin: 0px;
   border-radius: 10px;
 }
 
-#cardText {
+#cardText {}
 
+.TopPart {
+  display: inline-block;
+  width: 100%;
 }
 
 .homeintro {
   padding-top: 100px;
   /* background-image: url("../img/close-up-photo-of-white-petaled-flowers-364091.jpg"); */
+  text-align: center;
 }
 
 .homeintrotext {
@@ -74,9 +78,10 @@ button:hover {
 
 
 #introright {
-  float: right;
-  padding-right: 350px;
-
+  /* float: right; */
+  padding-right: 100px;
+  padding-left: 100px;
+  display: inline-block;
 }
 
 #ProfPic {
@@ -87,25 +92,32 @@ button:hover {
 #pronouns {
   padding-top: 20px;
   font-size: 30px;
-  padding-left: 150px;
 }
 
 #introleft {
-  padding-left: 175px;
-  float: left;
+  padding-left: 140px;
+  padding-right: 140px;
+  /* float: left; */
+  position: relative;
+  bottom: 150px;
+  display: inline-block;
 }
 
 #StylishName {
   font-family: 'Great Vibes';
   font-size: 150px;
-  line-height: 125px;
-  height: 60px;
-  /* padding-bottom: 60px; */
+  line-height: 115px;
+  height: 150px;
+  margin-bottom: 0px;
+  margin-top: 100px;
 }
 
 #AKA {
-  padding-top: 20px;
+  /* padding-top: 10px; */
   font-size: 40px;
+  line-height: 30px;
+  height: 40px;
+  padding-top: 10px;
 }
 
 
@@ -115,11 +127,17 @@ button:hover {
   clear: both;
   background-color: #E8E9F3;
   padding-bottom: 50px;
+  width: auto;
 }
 
 .SubjectButtons {
   font-size: 50px;
   margin: 100px;
+}
+
+.SubjectButtons:focus {
+  background-color: #172A3A;
+  color: #E8E9F3;
 }
 
 
@@ -151,4 +169,39 @@ button:hover {
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#aboutMePanels {
+  /* display: inline-block; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#aboutMeDescription {
+  /* float: left; */
+  margin: auto;
+  width: 85%;
+  height: 400px;
+  color: white;
+}
+
+#aboutMeDescriptionText {
+  padding-left: 20px;
+}
+
+#aboutMeImage {
+  /* float: right; */
+  width: 80%;
+  margin: auto;
+  height: 400px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+#aboutMeImageImage {
+  max-width: 100%;
+  max-height: 100%;
+  /* display: block; */
+  /* remove extra space below image */
 }
