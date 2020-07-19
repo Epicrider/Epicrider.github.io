@@ -135,6 +135,11 @@ button:hover {
   margin: 100px;
 }
 
+.SubjectButtons:focus {
+  background-color: #172A3A;
+  color: #E8E9F3;
+}
+
 
 #subjectButtonHolder {
   text-align: center;
