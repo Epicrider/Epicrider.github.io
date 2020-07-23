@@ -12,6 +12,15 @@ html {
   padding: 0;
 }
 
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    position: absolute;
+    /* overflow-x: hidden; */
+  }
+}
+
 .navtop {
   height: 50px;
   width: 100%;
@@ -60,13 +69,18 @@ button:hover {
 
 #cardText {}
 
+#Spacer {
+  padding-top: 100px;
+}
+
 .TopPart {
   display: inline-block;
   width: 100%;
 }
 
+
 .homeintro {
-  padding-top: 100px;
+  /* padding-top: 100px; */
   /* background-image: url("../img/close-up-photo-of-white-petaled-flowers-364091.jpg"); */
   text-align: center;
 }
@@ -107,9 +121,8 @@ button:hover {
   font-family: 'Great Vibes';
   font-size: 150px;
   line-height: 115px;
-  height: 150px;
-  margin-bottom: 0px;
-  margin-top: 100px;
+  margin-bottom: 75px;
+  /* margin-top: 80px; */
 }
 
 #AKA {
@@ -117,7 +130,7 @@ button:hover {
   font-size: 40px;
   line-height: 30px;
   height: 40px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 
@@ -127,7 +140,12 @@ button:hover {
   clear: both;
   background-color: #E8E9F3;
   padding-bottom: 50px;
-  width: auto;
+  min-width: 100%;
+  /* overflow: auto; */
+  display: inline-block;
+  /* width: 100%;
+  overflow: auto;
+  display: inline-block; */
 }
 
 .SubjectButtons {
