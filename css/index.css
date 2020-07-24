@@ -33,6 +33,7 @@ html {
 .navtop a {
   padding-right: 300px;
   text-decoration: none;
+  color: #E8E9F3;
 }
 
 .navtop a:visited {
@@ -56,6 +57,14 @@ button:hover {
   transition: 0.3s;
   background-color: #172A3A;
   color: #E8E9F3;
+}
+
+#gitHubHotButton button:hover {
+  background-color: #8b24b4;
+}
+
+#linkedinHotButton button:hover {
+  background-color: #123a8f;
 }
 
 .card {
