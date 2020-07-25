@@ -21,6 +21,10 @@ html {
   }
 }
 
+h1 {
+  font-size: 70px;
+}
+
 .navtop {
   height: 50px;
   width: 100%;
@@ -33,6 +37,7 @@ html {
 .navtop a {
   padding-right: 300px;
   text-decoration: none;
+  color: #E8E9F3;
 }
 
 .navtop a:visited {
@@ -56,6 +61,14 @@ button:hover {
   transition: 0.3s;
   background-color: #172A3A;
   color: #E8E9F3;
+}
+
+#gitHubHotButton button:hover {
+  background-color: #8b24b4;
+}
+
+#linkedinHotButton button:hover {
+  background-color: #123a8f;
 }
 
 .card {
@@ -222,4 +235,44 @@ button:hover {
   max-height: 100%;
   /* display: block; */
   /* remove extra space below image */
+}
+
+#myWork {
+  clear: both;
+  background-color: #E8E9F3;
+  padding-bottom: 50px;
+  min-width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+#myWorkTitleText {
+  padding-left: 80px;
+  font-size: 85px;
+  text-align: left;
+}
+
+.myWorkCard {
+  display: inline-block;
+  background-color: #172A3A;
+  border-radius: 10px;
+  margin: auto;
+  width: 70%;
+  height: 270px;
+  color: white;
+}
+
+#sampleCard p {
+  display: inline-block;
+}
+
+#sampleCard img {
+  /* margin: auto; */
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
+  color: white;
+  /* text-align: center; */
+  overflow: hidden;
+  border-radius: 3%;
 }
