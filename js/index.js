@@ -32,6 +32,6 @@ aboutMeButtonProgramming.addEventListener("click", function () {
                + "such as OpenGL. To learn more about what projects and practical work I have done, check the My Work section below!");
 });
 aboutMeButtonDesign.addEventListener("click", function () {
-  switchCraft("<br>hello3");
+  switchCraft("<br>Coming Soon!");
 });
 
