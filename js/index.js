@@ -21,7 +21,7 @@ aboutMeButtonArtist.addEventListener("click", function () {
               + "To learn more about what projects and practical work I have done, check the My Work section below!");
 });
 aboutMeButtonProgramming.addEventListener("click", function () {
-  switchCraft("<br>I am currenlty a Computer Science Student at the University of California at Irvine, planning to graduate by my third year in the class of 2022.<br>"
+  switchCraft("<br>I am currently a Computer Science Student at the University of California at Irvine, planning to graduate by my third year in the class of 2022.<br>"
                + "However my studies in programming didn't start at college as I started programming as soon as I started highschool, starting projects,<br>"
                + "attending numerous hackathons, finding and leading a game dev club, and being code lead on an FRC Robotics Team.<br><br>"
                + "My Knowledge of programming include: <br> - Strong knowledge of C# in hand with Game Development in Unity <br> - C++ and its practical use in Robotics <br>"
@@ -29,7 +29,8 @@ aboutMeButtonProgramming.addEventListener("click", function () {
                + " - Ability to learn programming languages relatively quickly for practical use <br>"
                + " - The ability to use Version Control such as Git <br> - Ability to plan out code that must be done in a team"
                + "<br><br> I am always looking for new things to learn. At the moment I am dabbling in Machine Learning and learning how to utilize graphic interfaces<br>"
-               + "such as OpenGL. To learn more about what projects and practical work I have done, check the My Work section below!");
+               + "such as OpenGL."
+               + "<br>To learn more about what projects and practical work I have done, check the My Work section below!");
 });
 aboutMeButtonDesign.addEventListener("click", function () {
   switchCraft("<br>Coming Soon!");

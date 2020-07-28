@@ -214,6 +214,7 @@ button:hover {
   width: 85%;
   height: 400px;
   color: white;
+  overflow-y: auto;
 }
 
 #aboutMeDescriptionText {
