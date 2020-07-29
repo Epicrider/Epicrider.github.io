@@ -32,10 +32,12 @@ h1 {
   top: 0;
   left: 0;
   background-color: rgb(41, 41, 41);
+  overflow: hidden;
+  z-index: 100;
 }
 
 .navtop a {
-  padding-right: 300px;
+  margin: 80px;
   text-decoration: none;
   color: #E8E9F3;
 }
@@ -135,7 +137,7 @@ button:hover {
   font-size: 150px;
   line-height: 115px;
   margin-bottom: 75px;
-  /* margin-top: 80px; */
+    /* margin-top: 80px; */
 }
 
 #AKA {
@@ -214,6 +216,7 @@ button:hover {
   width: 85%;
   height: 400px;
   color: white;
+  overflow-y: auto;
 }
 
 #aboutMeDescriptionText {
@@ -222,9 +225,11 @@ button:hover {
 
 #aboutMeImage {
   /* float: right; */
-  width: 80%;
+  /* width: 80%; */
   margin: auto;
-  height: 400px;
+  /* height: 400px; */
+  max-width: 80%;
+  max-height: 80%;
   color: white;
   text-align: center;
   overflow: hidden;
@@ -260,13 +265,14 @@ button:hover {
   width: 70%;
   height: 270px;
   color: white;
+  margin-bottom: 20px;
 }
 
-#sampleCard p {
+.myWorkCard p {
   display: inline-block;
 }
 
-#sampleCard img {
+.myWorkCard img {
   /* margin: auto; */
   max-width: 100%;
   max-height: 100%;
