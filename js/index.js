@@ -28,7 +28,7 @@ aboutMeButtonProgramming.addEventListener("click", function () {
                + "My Knowledge of programming include: <br> - Strong knowledge of C# in hand with Game Development in Unity <br> - C++ and its practical use in Robotics <br>"
                + " - Knowledge of the Java Programming Language <br> - Knowledge of Python <br> - Basic Knowledge of Web Dev Including HTML, CSS, Javascript, and Flask <br>"
                + " - Ability to learn programming languages relatively quickly for practical use <br>"
-               + " - The ability to use Version Control such as Git <br> - Ability to plan out code that must be done in a team"
+               + " - The ability to use Version Control such as Git <br> - Ability to plan out code to be implemented by a team"
                + "<br><br> I am always looking for new things to learn. At the moment I am dabbling in Machine Learning and learning how to utilize graphic interfaces<br>"
                + "such as OpenGL."
                + "<br>To learn more about what projects and practical work I have done, check the My Work section below!",

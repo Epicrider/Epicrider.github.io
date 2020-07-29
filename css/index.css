@@ -263,13 +263,14 @@ button:hover {
   width: 70%;
   height: 270px;
   color: white;
+  margin-bottom: 20px;
 }
 
-#sampleCard p {
+.myWorkCard p {
   display: inline-block;
 }
 
-#sampleCard img {
+.myWorkCard img {
   /* margin: auto; */
   max-width: 100%;
   max-height: 100%;
