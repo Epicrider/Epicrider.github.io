@@ -35,6 +35,11 @@ aboutMeButtonProgramming.addEventListener("click", function () {
                "https://i.imgur.com/QlAaHC8.gif");
 });
 aboutMeButtonDesign.addEventListener("click", function () {
-  switchCraft("<br>Coming Soon!");
+  switchCraft("<br>As an aspiring game developer, I love spending my time designing game mechanics and level/world design. Throughout my game dev journey,"
+               + "my skills have only been improving and improving after every game. Embarrassingly enough, it can be seen with my earlier game compared to my latest ones!<br>"
+               + "I have done multiple maps and levels on paper and had the experience in implementing them in my games. From there, I had experience having people"
+               + "play test them and watching from afar, and from there, I tweaked the design accordingly. My greatest feat in my early level design carreer thus far is"
+               + "Bullet Sanctum, a metroidvania made for the Metroidvania Month Game Jam, which can be played for free. <br>Check the My Work section below!",
+                "https://i.imgur.com/Ek631sa.jpg");
 });
 
