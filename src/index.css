@@ -57,6 +57,7 @@
 
  section {
     margin-top: 8rem; /* Gives White spcce above each section */
+    height: 100vh;
  }
 
  section > h2, section > h5 {
