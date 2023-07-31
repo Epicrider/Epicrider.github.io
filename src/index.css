@@ -10,9 +10,9 @@
     text-decoration: none;
 }
  :root {
-    --color-bg: #76a363;
-    --color-bg-variant: #559945;
-    --color-primary: #4dff9d;
+    --color-bg: #3b5245;
+    --color-bg-variant: #4f5f5a;
+    --color-primary: #4af094;
     --color-primary-variant: rgba(65, 250, 37, 0.4);
     --color-white: #fff;
     --color-black: #000;
