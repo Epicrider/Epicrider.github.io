@@ -25,25 +25,27 @@ const About = () => {
             </article>
             <article className="about__card">
               <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
+              <h5>Companies / Orgs</h5>
+              <small>8 Professional Positions in different Organizations</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>15+ Non-Classwork Projects Completed</small>
             </article>
           </div>
 
           <p>
-            This is just a copy pasta. You read the title, I just cannot believe I said the “g” word on accident. 
-            Am I even an atheist anymore? I don’t like religion or anything but like maybe 
-            it infiltrated me and is manipulating me to say “oh my g*d” instead of 
-            “oh my science”. Please guys it wasn’t me, I didn’t mean it. 
-            I’m very disappointed in myself, I think I need to go to science camp or go to 
-            therapy. What if I’m secretly religious? what should I do? Is my foreskin going to 
-            fall off?? Please can someone give me advice, any advice is appreciated.
-            Again, this is just a copy-pasta.
+            Software Developer and Robotocist by Day, Game Developer by Night, Engineer all Day.
+            I'm Omar Hossain, a multi-skilled Computer Scientist and Engineer with a bachelor's
+            degree in CSE from the University of California at Irvine. Much of my experience relates 
+            to Robotics, Aerospace, Backend, and Game Development, however I have the ability to 
+            acquire any skills given the job.
+            My most notable works includes assembling and programming autonomous drones, 
+            robotics research in motion planning and Reinforcement Learning, radio telemetry in aerospace, 
+            game development, and team leadership.
+            If you still don't think I'm the right person for your job, please, peruse my website and
+            let my portfolio prove you wrong ;) Or... let's just skip to the fun part
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
