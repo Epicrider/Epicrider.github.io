@@ -104,8 +104,15 @@
       color: var(--color-bg);
  }
 
+/* TODO: Figure out how to put in cta.css. When you do, text doesn't appear until hovered */
+ .btn-primary-cta {
+      background: var(--color-primary);
+      color: var(--color-bg);
+      margin-left: 1rem;
+ }
+
  img {
-   diplay: block;
+   display: block;
    width: 100%;
    object-fit: cover;
  }

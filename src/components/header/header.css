@@ -28,13 +28,13 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 1.5rem;
 }
 
 .header_socials::after {
     content: '';
     width: 1px;
     height: 2rem;
-    background: var(--color-primary);
 }
 
 /* Image of Me */
@@ -60,18 +60,20 @@ header {
  /* Media Queries (Medium Devices) like tablets*/
  @media screen and (max-width: 1024px) {
     header {
-        height: 60vh;
+        height: 80vh;
     }
  }
 
  /* Media Queries (Small Devices) like phones*/
  @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 95vh;
     }
 
     .header_socials, 
     .scroll_down {
-        display: none;
+        flex-direction: row;
+        display: flex;
+        margin-top: 1rem;
     }
  }
