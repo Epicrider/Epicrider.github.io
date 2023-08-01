@@ -1,26 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4387f32c.css",
-    "main.js": "/static/js/main.27d4ebcb.js",
-    "static/media/shindler.jpg": "/static/media/shindler.22c1805220fdf462b775.jpg",
+    "main.css": "/static/css/main.2984bb02.css",
+    "main.js": "/static/js/main.f30d9140.js",
     "static/media/OmarHossain.PNG": "/static/media/OmarHossain.4f3e11c63c007621504d.PNG",
-    "static/media/portfolio1.jpeg": "/static/media/portfolio1.4f1b1a3df53103b6cfa4.jpeg",
     "static/media/portfolio3.png": "/static/media/portfolio3.13a639a1711a2a997872.png",
     "static/media/Hossain_Omar.jpg": "/static/media/Hossain_Omar.1936cea3731b8031a642.jpg",
-    "static/media/kia.jpg": "/static/media/kia.7fda62aec12e36e400c7.jpg",
+    "static/media/portfolio1.png": "/static/media/portfolio1.8c55f2692da2469b574b.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.8803bbfe442054720155.png",
     "static/media/ResumeLateMay2023.pdf": "/static/media/ResumeLateMay2023.857dd6cd6d618e59998c.pdf",
     "static/media/portfolio5.png": "/static/media/portfolio5.3889633f5bb6e35d12f5.png",
-    "static/media/portfolio4.jpg": "/static/media/portfolio4.68cab2842aa8917aa046.jpg",
-    "static/media/david.png": "/static/media/david.ee3a3db3bab6902fe04d.png",
     "static/media/portfolio6.png": "/static/media/portfolio6.2cbe9756cad2b2dec9b0.png",
-    "static/media/amit.jpg": "/static/media/amit.8b1a2534c5a8f5511081.jpg",
+    "static/media/portfolio4.png": "/static/media/portfolio4.43c4f65bb4e521710c86.png",
     "index.html": "/index.html",
-    "main.4387f32c.css.map": "/static/css/main.4387f32c.css.map",
-    "main.27d4ebcb.js.map": "/static/js/main.27d4ebcb.js.map"
+    "main.2984bb02.css.map": "/static/css/main.2984bb02.css.map",
+    "main.f30d9140.js.map": "/static/js/main.f30d9140.js.map"
   },
   "entrypoints": [
-    "static/css/main.4387f32c.css",
-    "static/js/main.27d4ebcb.js"
+    "static/css/main.2984bb02.css",
+    "static/js/main.f30d9140.js"
   ]
 }
