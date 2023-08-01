@@ -72,8 +72,9 @@ header {
 
     .header_socials, 
     .scroll_down {
-        flex-direction: row;
-        display: flex;
-        margin-top: 1rem;
+        /* flex-direction: row; */
+        /* display: flex; */
+        display: none;
+        /* margin-top: 1rem; */
     }
  }
