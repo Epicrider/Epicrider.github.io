@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.d8f60a36.css",
-    "main.js": "/static/js/main.f30d9140.js",
+    "main.js": "/static/js/main.7392bde7.js",
     "static/media/OmarHossain.PNG": "/static/media/OmarHossain.4f3e11c63c007621504d.PNG",
     "static/media/portfolio3.png": "/static/media/portfolio3.13a639a1711a2a997872.png",
     "static/media/Hossain_Omar.jpg": "/static/media/Hossain_Omar.1936cea3731b8031a642.jpg",
     "static/media/portfolio1.png": "/static/media/portfolio1.8c55f2692da2469b574b.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.8803bbfe442054720155.png",
     "static/media/ResumeLateMay2023.pdf": "/static/media/ResumeLateMay2023.857dd6cd6d618e59998c.pdf",
-    "static/media/portfolio5.png": "/static/media/portfolio5.3889633f5bb6e35d12f5.png",
-    "static/media/portfolio6.png": "/static/media/portfolio6.2cbe9756cad2b2dec9b0.png",
+    "static/media/portfolioHexcaliber.png": "/static/media/portfolioHexcaliber.3889633f5bb6e35d12f5.png",
+    "static/media/portfolioValkyrie.png": "/static/media/portfolioValkyrie.2cbe9756cad2b2dec9b0.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.43c4f65bb4e521710c86.png",
     "index.html": "/index.html",
     "main.d8f60a36.css.map": "/static/css/main.d8f60a36.css.map",
-    "main.f30d9140.js.map": "/static/js/main.f30d9140.js.map"
+    "main.7392bde7.js.map": "/static/js/main.7392bde7.js.map"
   },
   "entrypoints": [
     "static/css/main.d8f60a36.css",
-    "static/js/main.f30d9140.js"
+    "static/js/main.7392bde7.js"
   ]
 }
