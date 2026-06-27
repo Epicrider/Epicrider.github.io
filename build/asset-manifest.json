@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.6462857a.css",
-    "main.js": "/static/js/main.4c2fb039.js",
+    "main.css": "/static/css/main.d18833cb.css",
+    "main.js": "/static/js/main.5cc3a5e3.js",
+    "static/media/OmarHossainResumeFeb2026.pdf": "/static/media/OmarHossainResumeFeb2026.dab54db7f51d35dd9870.pdf",
     "static/media/OmarHossain.webp": "/static/media/OmarHossain.e3be7ec86ab5aa08e4dc.webp",
-    "static/media/ResumeLateMay2023.pdf": "/static/media/ResumeLateMay2023.857dd6cd6d618e59998c.pdf",
     "static/media/portfolioHexcaliber.png": "/static/media/portfolioHexcaliber.3889633f5bb6e35d12f5.png",
     "static/media/portfolio3.webp": "/static/media/portfolio3.8162cb47c1721b77608e.webp",
     "static/media/portfolioValkyrie.png": "/static/media/portfolioValkyrie.2cbe9756cad2b2dec9b0.png",
     "static/media/Hossain_Omar.webp": "/static/media/Hossain_Omar.f25a5c0e43c07ff775c1.webp",
+    "static/media/Cruise.png": "/static/media/Cruise.a0ef102c580d5262675a.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.43c4f65bb4e521710c86.png",
     "static/media/portfolio1.webp": "/static/media/portfolio1.8f4d525edb1e5cc5f378.webp",
     "static/media/portfolio2.webp": "/static/media/portfolio2.3108ead8c6f7aeb366e9.webp",
     "index.html": "/index.html",
-    "main.6462857a.css.map": "/static/css/main.6462857a.css.map",
-    "main.4c2fb039.js.map": "/static/js/main.4c2fb039.js.map"
+    "static/media/GeneralMotors.svg": "/static/media/GeneralMotors.451e4116bf27e3215c962fe171ac621f.svg",
+    "main.d18833cb.css.map": "/static/css/main.d18833cb.css.map",
+    "main.5cc3a5e3.js.map": "/static/js/main.5cc3a5e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6462857a.css",
-    "static/js/main.4c2fb039.js"
+    "static/css/main.d18833cb.css",
+    "static/js/main.5cc3a5e3.js"
   ]
 }

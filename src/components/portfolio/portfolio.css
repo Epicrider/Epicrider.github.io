@@ -10,6 +10,8 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio__item:hover {
@@ -22,13 +24,38 @@
     overflow: hidden;
 }
 
+/* Side-by-side logo tile (e.g. GM / Cruise) */
+.portfolio__item-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background: var(--color-bg);
+    min-height: 160px;
+    padding: 1.5rem;
+}
+
+.portfolio__item-logos img {
+    width: auto;
+    max-width: 40%;
+    max-height: 70px;
+    object-fit: contain;
+}
+
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0.8rem;
+}
+
+.portfolio__item-desc {
+    color: var(--color-light);
+    font-size: 0.9rem;
+    margin-bottom: 1.2rem;
 }
 
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
+    margin-top: auto;
     margin-bottom: 1rem;
 }
 

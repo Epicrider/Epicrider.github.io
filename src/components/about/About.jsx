@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>4+ Years Working</small>
             </article>
             <article className="about__card">
               <FiUsers className='about__icon'/>
@@ -36,14 +36,15 @@ const About = () => {
           </div>
 
           <p>
-            Software Developer and Robotocist by Day, Game Developer by Night, Engineer all Day.
-            I'm Omar Hossain, a multi-skilled Computer Scientist and Engineer with a bachelor's
-            degree in CSE from the University of California at Irvine. Much of my experience relates 
-            to Robotics, Aerospace, Backend, and Game Development, however I have the ability to 
-            acquire any skills given the job.
-            My most notable works includes assembling and programming autonomous drones, 
-            robotics research in motion planning and Reinforcement Learning, radio telemetry in aerospace, 
-            game development, and team leadership.
+            Software Developer and Roboticist by Day, Game Developer by Night, Engineer all Day.
+            I'm Omar Hossain, a multi-skilled Computer Scientist and Engineer currently pursuing a
+            Master's in Robotics (MSE) at the University of Pennsylvania, after earning my bachelor's
+            in Computer Science &amp; Engineering from UC Irvine. Much of my experience spans Robotics,
+            AI, Aerospace, Backend, and Game Development, and I have the ability to acquire any skill
+            the job demands.
+            My most notable work includes building AI-driven autonomous robots for a DARPA challenge,
+            assembling and programming autonomous drones, robotics research in motion planning and
+            reinforcement learning, radio telemetry in aerospace, game development, and team leadership.
             If you still don't think I'm the right person for your job, please, peruse my website and
             let my portfolio prove you wrong ;) Or... let's just skip to the fun part
           </p>
