@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Poppins font is loaded via <link rel="preconnect"> + stylesheet in public/index.html
+   (faster, non render-blocking) instead of a CSS @import. */
 
 * {
     margin: 0;

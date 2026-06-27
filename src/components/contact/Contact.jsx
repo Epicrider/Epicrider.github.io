@@ -3,7 +3,7 @@ import './contact.css'
 import {BsLinkedin, BsInstagram} from 'react-icons/bs'
 import {MdOutlineMail} from 'react-icons/md'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
 
@@ -12,7 +12,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_iw9nasw', 'template_gu7p41s', form.current, 'LtTJ4keXjFYDbskwv')
+    emailjs.sendForm('service_iw9nasw', 'template_gu7p41s', form.current, {
+      publicKey: 'LtTJ4keXjFYDbskwv',
+    })
       .then((result) => {
           console.log(result.text);
       }, (error) => {
