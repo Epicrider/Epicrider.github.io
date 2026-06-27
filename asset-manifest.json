@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8f60a36.css",
-    "main.js": "/static/js/main.7392bde7.js",
-    "static/media/OmarHossain.PNG": "/static/media/OmarHossain.4f3e11c63c007621504d.PNG",
-    "static/media/portfolio3.png": "/static/media/portfolio3.13a639a1711a2a997872.png",
-    "static/media/Hossain_Omar.jpg": "/static/media/Hossain_Omar.1936cea3731b8031a642.jpg",
-    "static/media/portfolio1.png": "/static/media/portfolio1.8c55f2692da2469b574b.png",
-    "static/media/portfolio2.png": "/static/media/portfolio2.8803bbfe442054720155.png",
-    "static/media/ResumeLateMay2023.pdf": "/static/media/ResumeLateMay2023.857dd6cd6d618e59998c.pdf",
+    "main.css": "/static/css/main.d18833cb.css",
+    "main.js": "/static/js/main.5cc3a5e3.js",
+    "static/media/OmarHossainResumeFeb2026.pdf": "/static/media/OmarHossainResumeFeb2026.dab54db7f51d35dd9870.pdf",
+    "static/media/OmarHossain.webp": "/static/media/OmarHossain.e3be7ec86ab5aa08e4dc.webp",
     "static/media/portfolioHexcaliber.png": "/static/media/portfolioHexcaliber.3889633f5bb6e35d12f5.png",
+    "static/media/portfolio3.webp": "/static/media/portfolio3.8162cb47c1721b77608e.webp",
     "static/media/portfolioValkyrie.png": "/static/media/portfolioValkyrie.2cbe9756cad2b2dec9b0.png",
+    "static/media/Hossain_Omar.webp": "/static/media/Hossain_Omar.f25a5c0e43c07ff775c1.webp",
+    "static/media/Cruise.png": "/static/media/Cruise.a0ef102c580d5262675a.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.43c4f65bb4e521710c86.png",
+    "static/media/portfolio1.webp": "/static/media/portfolio1.8f4d525edb1e5cc5f378.webp",
+    "static/media/portfolio2.webp": "/static/media/portfolio2.3108ead8c6f7aeb366e9.webp",
     "index.html": "/index.html",
-    "main.d8f60a36.css.map": "/static/css/main.d8f60a36.css.map",
-    "main.7392bde7.js.map": "/static/js/main.7392bde7.js.map"
+    "static/media/GeneralMotors.svg": "/static/media/GeneralMotors.451e4116bf27e3215c962fe171ac621f.svg",
+    "main.d18833cb.css.map": "/static/css/main.d18833cb.css.map",
+    "main.5cc3a5e3.js.map": "/static/js/main.5cc3a5e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8f60a36.css",
-    "static/js/main.7392bde7.js"
+    "static/css/main.d18833cb.css",
+    "static/js/main.5cc3a5e3.js"
   ]
 }
