@@ -1,0 +1,94 @@
+.education__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.education__card {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.education__card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.education__logo {
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+
+.education__logo img {
+    width: auto;
+    object-fit: contain;
+}
+
+.education__logo .logo-penn {
+    max-height: 88px;
+}
+
+.education__logo .logo-uci {
+    max-height: 88px;
+}
+
+.education__card h3 {
+    color: var(--color-primary);
+    margin-bottom: 0.4rem;
+}
+
+.education__degree {
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.education__meta {
+    display: block;
+    margin-bottom: 1.4rem;
+}
+
+.education__subhead {
+    color: var(--color-primary);
+    text-align: left;
+    margin: 1.2rem 0 0.6rem;
+}
+
+.education__courses {
+    text-align: left;
+}
+
+.education__courses li {
+    margin-bottom: 0.5rem;
+    color: var(--color-light);
+    font-size: 0.92rem;
+    line-height: 1.5;
+}
+
+/* Media Queries (Medium Devices) like tablets */
+@media screen and (max-width: 1024px) {
+    .education__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .education__card {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Media Queries (Small Devices) like phones */
+@media screen and (max-width: 600px) {
+    .education__card {
+        width: 100%;
+        padding: 2rem 1.2rem;
+    }
+}
