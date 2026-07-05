@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {BsLinkedin, BsInstagram, BsGithub, BsGit} from 'react-icons/bs'
+import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
         <li><a href='#experience'>Experience</a></li>
         <li><a href='#services'>Services</a></li>
         <li><a href='#portfolio'>Portfolio</a></li>
+        <li><Link to='/blog'>Field Log</Link></li>
         <li><a href='#testimonials'>Testimonials</a></li>
         <li><a href='#contact'>Contact</a></li>
       </ul>

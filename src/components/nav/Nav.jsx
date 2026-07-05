@@ -5,8 +5,9 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {FaGraduationCap} from 'react-icons/fa'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
-import {BiMessageSquareDetail} from 'react-icons/bi'
+import {BiMessageSquareDetail, BiTerminal} from 'react-icons/bi'
 import {useState} from 'react'
+import {Link} from 'react-router-dom'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
@@ -30,6 +31,9 @@ const Nav = () => {
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <BiMessageSquareDetail/>
       </a>
+      <Link to="/blog" aria-label="Field Log (blog)">
+        <BiTerminal/>
+      </Link>
     </nav>
   )
 }
